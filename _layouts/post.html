@@ -24,6 +24,14 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
+      {%- if page.tags -%}
+        Tags: {% for tag in page.tags %}
+            <span class="p-author h-card" itemprop="name">{{ tag }}</span>
+            {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+      {%- endif -%}</p>
+
+  <hr>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

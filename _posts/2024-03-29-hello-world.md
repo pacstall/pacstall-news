@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello, World!"
 date:   2024-03-29 15:11:48 -0500
-tags: [release, package-notice, important]
+tags: ["release", "package-notice", "important"]
 author: Elsie19
 ---
 

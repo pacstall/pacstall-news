@@ -24,14 +24,12 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
-      {%- if page.tags -%}
-        Tags: {% for tag in page.tags %}
-            <span class="p-author h-card" itemprop="name">{{ tag }}</span>
-            {%- if forloop.last == false %}, {% endif -%}
-        {% endfor %}
-      {%- endif -%}</p>
-
-  <hr>
+    <span>[
+      {% for tag in page.tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+        <a class="tag" href="{{ site.baseurl }}/tag/{{ tag_name }}"><code class="highlighter-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+      {% endfor %}
+    ]</span>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

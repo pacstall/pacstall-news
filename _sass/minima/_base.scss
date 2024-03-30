@@ -147,6 +147,24 @@ a {
     }
 }
 
+a.tag {
+    color: #81e6d9;
+    text-decoration: none;
+
+    &:hover {
+        color: #81e6d9;
+        text-decoration: underline;
+    }
+
+    .social-media-list &:hover {
+        text-decoration: none;
+
+        .username {
+            text-decoration: underline;
+        }
+    }
+}
+
 /**
  * Blockquotes
  */
@@ -169,9 +187,9 @@ blockquote {
 pre,
 code {
     @include relative-font-size(0.9375);
-    border: 1px solid $grey-color-light;
+    border: 1px solid #81e6d9;
+    color: #81e6d9;
     border-radius: 3px;
-    background-color: #eef;
 }
 
 code {

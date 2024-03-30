@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Hyprland Status"
-date:   2024-03-29 16:07:55 -0500
+title: "[pkgs:hyprland]: Hyprland Status"
+date: 2024-03-29 16:07:55 -0500
 tags: [package-notice]
 author: Elsie19
 ---

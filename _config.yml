@@ -30,6 +30,7 @@ url: "https://pacstall.github.io" # the base hostname & protocol for your site, 
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Specify here for files you want to appear in the header.
 # pacstall-news uses this to remove the tag links that are generated

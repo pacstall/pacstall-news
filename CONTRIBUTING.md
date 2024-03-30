@@ -35,7 +35,7 @@ For tags, you have the following tags, which can be formatted into a yaml array:
 
 - `release` reserved for Pacstall releases.
 - `important` is reserved for extremely important information.
-- `package-notice` for package notices such as important information for users, delays in releases, explainations certain pacscript features, etc.
+- `package-notice` for package notices such as important information for users, delays in releases, explainations for certain pacscript features, etc.
 
 #### Body
 Then you can write your news post. Make sure to be descriptive! When writing, we do have a couple styling rules, listed below.

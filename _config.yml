@@ -31,6 +31,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Specify here for files you want to appear in the header.
+# pacstall-news uses this to remove the tag links that are generated
+# for pages
+header_pages:
+  - about.md
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

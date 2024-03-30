@@ -21,7 +21,7 @@
 title: Pacstall News
 email: pacstall@pm.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Experimental Pacstall news aggregator
+  Pacstall news aggregator
 domain: "pacstall.github.io"
 baseurl: "/pacstall-news" # the subpath of your site, e.g. /blog
 url: "https://pacstall.github.io" # the base hostname & protocol for your site, e.g. http://example.com

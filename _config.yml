@@ -35,6 +35,7 @@ plugins:
 # pacstall-news uses this to remove the tag links that are generated
 # for pages
 header_pages:
+  - submit-post.md
   - about.md
 
 # Exclude from processing.

@@ -16,7 +16,7 @@ layout: post
 title: "[prefix]: title"
 date: $date
 tags: [$tags]
-author: github_username
+author: $github_username
 ---
 ```
 

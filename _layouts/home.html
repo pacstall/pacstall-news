@@ -24,11 +24,11 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
+        <hr>
       </li>
       {%- endfor -%}
     </ul>
 
-    <hr>
     <br>
 
     <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
